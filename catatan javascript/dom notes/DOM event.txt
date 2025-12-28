@@ -1,0 +1,49 @@
+event pada javascript mempresentasikan kejadian yang terjadi di dalam DOM
+kejadian tsb bisa dilakukan oleh user (mouse event, keyboard event dll)
+
+ataupun dilakukan secara otomatis oleh API (komputer kata sandhika galih)
+(animasi selesai dijalankan, halaman selesai di load, dll)
+
+ada beberapa cara untuk menerapkan/MENDENGARKAN event, yaitu:
+- event handler
+	a. inline html attribute
+	b. element method
+-addEventListener()
+
+
+sangat tidak disarankan menggunakan event handler terutama inline, karena dapat mengubah struktur html, lebih baik gunakan 
+addEventListener > method.
+
+perbedaan addEventListener dan eventHandler adalah saat kita memberikan lebih dari 1 perubahan,
+PADA EVENTHANDLER, JIKA KITA MEMBERIKAN LEBIH DARI 1 EVENT, MAKA ITU AKAN "MENIMPA" EVENT SEBELUMNYA, bukan menambah jumlah eventnya.
+
+
+daftar event event yang ada (belum semua)
+- mouse event
+	kategorinya:
+	a. click
+	b. dblclick
+	c. mouseenter
+	d. mouseup
+	e. mouseleave
+	f. wheel
+	g. ...
+
+- keyboard event
+	kategorinya:
+	a. keydown
+	b. keypress
+	c. keyup
+
+- resources event
+	a. ketika halaman di load misalnya 
+- focus event
+	a. ketika sbuah text field atau inputin di klik pada form
+- view event
+- form event
+	kategorinya:
+	a. reset
+	b. submit
+- css animation & transition event
+- drag & drop event
+dll.

@@ -1,0 +1,12 @@
+object
+
+kumpulan nilai yang memiliki nama.
+object, array yang lebih sakti.
+
+// membuat object
+- object literal 
+- function declaration
+- constructor function (menggunakan keyword "new")
+- object.create()
+
+

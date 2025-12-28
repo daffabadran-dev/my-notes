@@ -1,0 +1,62 @@
+penggunaan this pada object tergantung pada penempaatan this digunakan / (tergantaung kepada context),
+this === window (elemen global),
+
+sebagai contoh: jika console.log(this) //diisi dengan this, maka akan menghasilkan output window.
+
+terdapat keunikan perbedaan this pada fungsi, fungsi factorial, object literal, dan constructor
+
+
+//1, pada fungsi biasa
+function tesThis(nama, umur) {
+  console.log(this);
+  console.log("halo");
+}
+tesThis();
+
+
+pada function di atas, penggunaan this keluar dari scope, tidak ter blok oleh scope fungsi,
+dan outputnya menghasilkan Window "{window: Window, self: Window, document: document, name: '', location: Location, …}",
+
+
+//penggunaan THIS pada constructor, hampir sama penulisannya dengan fungsi, hanya saja pada pemanggilannya menggunakan keyword "new"
+
+function TesKonstraktor(umur, nama) {
+  this.umur = umur;
+  this.nama = nama;
+  console.log(this);
+}
+
+console.log(new TesKonstraktor(22, "saber"));
+console.log(new TesKonstraktor(22, "miyabi"));
+
+pada contoh di atas outputnya adalah:
+
+TesKonstraktor {umur: 22, nama: 'saber'}
+script.js:53 
+TesKonstraktor {umur: 22, nama: 'saber'}
+script.js:50 
+TesKonstraktor {umur: 22, nama: 'miyabi'}
+script.js:54 
+TesKonstraktor {umur: 22, nama: 'miyabi'}
+
+
+ini menunjukan bahwa this pada constraktor dapat di blok dengan baik, tidak keluar dari scope (lokal) tidak menjadi variabel global.
+
+"namun ketika keyword 'new' di hapus dari pemanggilan (seperti fungsi biasa), maka akan menghasilkan nilai undefined"
+//
+//
+//
+this juga bekerja penulisan pembuatan object seperti  berikut
+
+
+let obj = { a: 10, nama: "saber" };
+obj.hello = function () {
+  console.log(this);
+};
+
+obj.hello();
+
+this pada contoh ini akan merujuk pada variabel object OBJ, sehingga output dari this adalah:
+`{a: 10, nama: 'saber', hello: ƒ}`
+
+

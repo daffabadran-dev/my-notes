@@ -1,0 +1,40 @@
+args dan argument:
+Alasan kenapa ...args lebih baik untuk pemula:
+✅ Keunggulan ...args:
+Konsisten - Work di regular function dan arrow function
+
+Real Array - Bisa pakai semua method array (map, filter, reduce, dll)
+
+Lebih eksplisit - Parameter jelas terlihat di function signature
+
+Modern - Standard JavaScript masa kini
+
+Kurang error-prone - Tidak ada magic object seperti arguments
+
+❌ Kekurangan arguments:
+Hanya work di regular function - Tidak work di arrow function
+
+Bukan array - Harus dikonversi dulu untuk pakai method array
+
+Less explicit - Tidak kelihatan di parameter
+
+Legacy - Sedikit demi sedikit ditinggalkan
+
+
+Roadmap belajar yang saya sarankan:
+Pahami dulu ...args dengan baik
+
+Ketahui saja bahwa arguments exists (untuk baca code lama)
+
+Fokus ke modern JavaScript yang digunakan di ecosystem modern
+
+Untuk konteks fullstack:
+React/Vue/Angular → mostly pakai arrow functions + rest parameters
+
+Node.js/Express → modern code juga pakai rest parameters
+
+Database operations → sering pakai array methods
+
+Kesimpulan: Invest your time in learning ...args karena itu adalah masa depan JavaScript! 🚀
+
+Semangat belajar fullstack-nya! Semua dimulai dari dasar yang solid seperti ini. 💪

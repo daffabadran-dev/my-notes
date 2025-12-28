@@ -1,0 +1,17 @@
+DOM SELECTION METHOD
+a- getElementByID(), memilih elemen di dalam DOM berdasarkan ID.  
+b- getElementsByTagName(), js tolong carikan saya elemen elemen yang memiliki nama TAG tertentu.
+c- getElementsByClassName(),  carikan elemen yang memiliki class tertentu
+d- querySelector()
+e- querySelectorAll(), keduanya digunakan untuk mencari elemen berdasarkan selectornya, seperti CSS
+
+---------------------------------------------------------
+
+a mengembalikan element
+b mengembalikan HTMLcollection
+c mengembalikan HTMLcollection
+d mengembalikan element
+e mengembalikan nodeLIST
+
+
+

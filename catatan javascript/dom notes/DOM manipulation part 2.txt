@@ -1,0 +1,17 @@
+manipulation dom
+- manipulasi element
+- manipulasi node (topik kedua), maksudnya jika ingin menyisipkan elemen baru pada html
+
+untuk memanipulasi DOM node ini, javascript memiliki beberapa method:
+
+document.createElement()
+document.craeteTextNode()
+
+node.appendChild()
+node.insertBefore()
+
+parentNode.removeChild()
+parentNode.replaceChild()
+
+...
+

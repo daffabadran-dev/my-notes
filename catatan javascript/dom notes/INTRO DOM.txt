@@ -1,0 +1,8 @@
+dom adalah antarmuka pemrograman untuk HTML yang mempresentasikan halaman web sehingga program dapat mengubah dan memanipulasi strukturnya -mozilla ??????
+
+
+DOM
+document?
+
+
+REPRESENTASI ELEMEN HTML YANG ADA DI DOKUMEN MENJADI SEBUAH OBJECT

@@ -1,0 +1,10 @@
+nodeList vs HTMLcollection
+- keduanya merupakan kumpulan NODE
+- strukturnya mirip array
+- nodeList dapat berisi apapun, sedangkan HTMLcollection harus berisi elemen html
+- HTMLcollection bersifat live sedangkan nodeList tidak
+
+STRUKTUR HIRARKI DOM TREE, mirip seperti silsilah keluarga,
+root node
+parent node
+child node

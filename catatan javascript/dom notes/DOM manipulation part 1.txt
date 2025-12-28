@@ -1,0 +1,50 @@
+smanipulasi element:
+- element.innerHTML
+- elemen.style.<property>
+- element.setAttribute() : setAttribute(), getAttribute(), removeAttribute()
+- element.classList
+- ...
+
+
+const judul = document.getElementsByTagName("h1")[0];
+judul.setAttribute("name", "daffabadran");
+const a = document.querySelector("section#a a");
+a.setAttribute("id", "link");
+// a.getAttribute("href");
+a.removeAttribute("href");
+
+// const p2 = document.querySelector(".p2");
+// p2.setAttribute("class", "label");
+// dengan menggunakan cara ini, class yang ada akan tergantikan, dengan yang baru, jika ingin -
+// menambahkan class baru tanpa menghapus class yang lama, gunakan classList
+
+
+
+classList:
+elemet.classList.add()		
+----------------.remove()
+		.toggle()
+		.item()
+		.contains()
+		.replace()
+
+
+- add
+untuk menambahkan class baru
+
+- remove
+menghapus class 
+
+- toggle
+jika ada class hapus, jika tidak ada class tambahkan, sama seperti saklar
+
+- item
+untuk mengetahui class tertentu, misal elemen punya 3 class, aku ingin tahu class ke 3
+
+- contains
+untuk mengecek dalam sebuah elemen apa memiliki class tertentu
+
+- replace
+mengganti class
+
+

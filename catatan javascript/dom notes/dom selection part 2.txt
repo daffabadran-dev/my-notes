@@ -1,0 +1,11 @@
+document.querySelector -> mengembalikan element
+document.querySelectorAll -> mengembalikan nodeList
+
+jika menggunakan yang pertama dan ingin menyeleksi semua elemen yang sama, itu tidak akan bekerja, karena hanya mengembalikan 1 elemen saja,.. dan hasilnya hanya elemen pertama yang akan diseleksi.
+
+- gunakanlah cara kedua jika ingin menyeleksi elemen yang sama,.. 
+
+"ada saatnya kita tidak boleh mengubah html - pak sandhika"
+
+
+method elementByID dan TagName adalah yang paling cepet.
