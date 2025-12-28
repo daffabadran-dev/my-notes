@@ -1,0 +1,57 @@
+CSS VALUE
+
+nilai yang bisa kita beri:
+- integer
+- number
+- percentage
+- dimension
+
+integer: nilai positif dan negatif, no koma komaan
+
+number: ya angka, bisa desimal
+persen: %
+
+dimension/dimensi:
+number yang memiliki satuan di belakangnya
+
+- length
+- angle
+- time
+- resolution
+
+
+ANGLE / SUDUT
+- deg (degree), derajat
+- rad (radiant)
+- grad (gradiant)
+- turn (untuk menentukan berapa putaran)
+
+TIME
+- s (second)
+- ms (milisecond)
+
+
+RESOLUTION
+- dpi (dot per inch)
+- dpcm (dot per cm)
+- dppx (dot per pixel)
+
+@media print and (min-resoulution: 300dpi) {}
+
+
+LENGTH:
+- absolute length / fix
+- relative
+
+
+ABSOLUTE: SS ada di discord
+
+RELATIVE:
+% relatif terhadap element parent
+em relatif terhadap ukuran font yang sedang digunakan
+rem relatif terhadap ukuran font root
+ch relatif terhadap lebar karakter "0" dari font yang digunakan || font family tertentu
+vh relatif terhadap tinggi viewport      ----------------------------
+vw relatif terhadap lebar viewport					|
+vmin relatif terhadap dimensi terkecil sebuah viewport			|>> satuannya persen
+vmax relatif terhadap dimensi terbesar sebuah viewport			|

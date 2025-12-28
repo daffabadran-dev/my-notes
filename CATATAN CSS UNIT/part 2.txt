@@ -1,0 +1,11 @@
+vw : relatif terhadap tinggi dari viewport.
+vw: relatif terhadap lebar dari viewport.
+vmin: relatif terhadap dimensi terkecil sebuah viewport.
+vmax: relatif terhadap dimensi terbesar dari sebuah viewport.
+
+note: 
+pada PC atau dekstop, vmin adalah tinggi dari monitor.
+pada mobile, vmax adalah tinggi dari layar.
+
+
+

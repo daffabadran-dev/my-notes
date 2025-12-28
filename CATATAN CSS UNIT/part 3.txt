@@ -1,0 +1,44 @@
+css calc()
+fungsi pada css yang memungkinkan kita melakukan operasi matematika (kalkulasi) pada nilai sebuah properti.
+
+nilai yang bisa dikelola diantaranya:
+<length> : px, vw, em, vh
+<angle> : radiant, grandiant, degree
+<time> : second, ms
+<percentage> : persen
+<number>
+
+
+cara nulis:
+property: calc(ekspresi matematika)
+
+contoh real case:
+width: calc(10px + 100px);
+
+width: calc(100% - 30px);
+
+- perkalian
+margin: calc(10px * 3);
+
+margin: calc(3 * 10);
+
+CATATAN PERKALIAN: "harus dikalikan dengan angka yang tidak memiliki satuan seperti pada contoh"
+
+- pembagian "SAMA DENGAN PERKALIAN, HANYA DITAMBAH TIDAK BISA DIBAGI DENGAN 0"
+
+- spasi harus diberikan spasi seperti pada contoh
+
+
+penerapan:
+- font size
+- width
+- height
+- padding 
+- dll
+
+
+CALC NESTING
+width: calc(100% / 3 - 1 rem * 2)  (cara menghitung sudah order operation)
+
+
+
