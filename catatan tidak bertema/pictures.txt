@@ -1,0 +1,36 @@
+SYNTAX DASAR (HAPAL INI!)
+
+<picture>
+  <!-- Mobile (kecil) -->
+  <source media="(max-width: 600px)" srcset="mobile.jpg">
+  
+  <!-- Desktop (besar) -->
+  <source media="(min-width: 601px)" srcset="desktop.jpg">
+  
+  <!-- Fallback (semua browser) -->
+  <img src="fallback.jpg" alt="Deskripsi gambar">
+</picture>
+
+
+<picture>
+  <source srcset="hero.avif" type="image/avif">     <!-- 1. Tercepat -->
+  <source srcset="hero.webp" type="image/webp">     <!-- 2. Populer -->
+  <img src="hero.jpg" alt="...">                    <!-- 3. Fallback -->
+</picture>
+
+
+KENYATAAN 2025:AVIF: 50% lebih kecil dari WebP
+WebP: 95% browser support  
+JPEG: Masih king fallback
+PNG: Cuma buat logo/transparan
+
+
+KAPAN PAKAI <picture>?
+ Hero images (homepage banner)
+ Product photos (e-commerce)
+ Blog articles (featured image)
+ Portfolio (showcase)   Icons (pakai SVG)
+ Small thumbnails (CSS background)  Sekarang website kamu loading 3x lebih cepat!
+Mau template e-commerce pake <picture> + lazy loading? Bilang "ECOMMERCE" 
+
+

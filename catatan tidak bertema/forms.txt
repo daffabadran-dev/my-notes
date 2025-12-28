@@ -1,0 +1,17 @@
+label
+input
+type:
+- text
+- password
+- radio
+- submit
+- reset
+- checkbox
+- color
+- datetime-local
+- image {src, alt, width, height}
+
+l = for 
+i =  type, id,  name, value, submit, reset, radio, color, datetime-local (selama input masih ada di dalam form yang sama, maka akan bekerja)
+
+f x id x name

@@ -1,0 +1,11 @@
+isNaN
+
+clg(""), kosong dianggap 0
+clg(" "), spasi dianggap 0
+clg(null), null dianggap 0
+clg(undefined) undefined di anggap 0
+clg(true) dianggap 1
+clg(false) dianggap 0
+
+clg = console.log
+
